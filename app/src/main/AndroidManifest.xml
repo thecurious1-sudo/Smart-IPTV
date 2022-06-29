@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="vaibhav.tech.smartiptv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE"/>-->
+
+    <application
+        android:name=".app.ChromecastApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/divy_logo_4"
+        android:label="Smart IPTV"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".IptvActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:mimeType="video/*"
+                    android:scheme="https" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:host="*" />
+                <data android:pathPattern="/.*\\.mp4" />
+                <data android:pathPattern="/.*\\.webm" />
+                <data android:pathPattern="/.*\\.mkv" />
+                <data android:pathPattern="/.*\\.m3u8" />
+                <data android:pathPattern="/.*\\.mpd" />
+                <data android:pathPattern="/.*\\..*\\.mp4" />
+                <data android:pathPattern="/.*\\..*\\..*\\.mp4" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.mp4" />
+                <data android:pathPattern="/.*\\..*\\.webm" />
+                <data android:pathPattern="/.*\\..*\\..*\\.webm" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.webm" />
+                <data android:pathPattern="/.*\\..*\\.mkv" />
+                <data android:pathPattern="/.*\\..*\\..*\\.mkv" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.mkv" />
+                <data android:pathPattern="/.*\\..*\\.m3u8" />
+                <data android:pathPattern="/.*\\..*\\..*\\.m3u8" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.m3u8" />
+                <data android:pathPattern="/.*\\..*\\.mpd" />
+                <data android:pathPattern="/.*\\..*\\..*\\.mpd" />
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.mpd" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="vaibhav.tech.smartiptv.cast.CastOptionsProvider" />
+
+
+        <activity android:name=".PlaylistShow2" />
+        <activity android:name=".SetPlayer" />
+        <activity android:name=".SinglePlaylist" />
+        <activity android:name=".HowToUse"></activity>
+
+
+
+    </application>
+
+</manifest>

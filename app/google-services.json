@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "448079631478",
+    "firebase_url": "https://smart-iptv-b070f.firebaseio.com",
+    "project_id": "smart-iptv-b070f",
+    "storage_bucket": "smart-iptv-b070f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448079631478:android:c3567d1c77dd8087",
+        "android_client_info": {
+          "package_name": "vaibhav.tech.smartiptv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448079631478-2rues2kgg533todjhqpogmr0eau8athb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vaibhav.tech.smartiptv",
+            "certificate_hash": "cb9d6a8b5f609ee825ce78b6688c3feaaaa23b7f"
+          }
+        },
+        {
+          "client_id": "448079631478-v8rhe6dn6gl2nf8suju1jdnctv8f68ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50tDHZy1i7HUK_lEuilj03YmHQQa9ohw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448079631478-v8rhe6dn6gl2nf8suju1jdnctv8f68ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

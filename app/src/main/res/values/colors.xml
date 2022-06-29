@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#00BCD4</color>
+    <color name="colorAccent">#FB641B</color>
+    <color name="colorBackground">#BB4F9B</color>
+    <color name="secondaryColor">#081014</color>
+    <color name="text_color_primary">#ffffff</color>
+    <color name="colorDivider">#394146</color>
+    <color name="black">#000000</color>
+<color name="colorWeb">#4EA0D1</color>
+    <color name="colorlocalvideo">#426C9E</color>
+    <color name="colorIpTv">#524B80</color>
+    <color name="colorServer">#473858</color>
+    <color name="colorRemoveAds">#006064</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="click_video">#1E00BCD4</color>
+    <color name="click_iptv">#1E524B80</color>
+    <color name="click_server">#1E473858</color>
+    <color name="click_remveads">#1E006064</color>
+<color name="click">#1E4EA0D1</color>
+
+    <color name="colorOverlay">#80000000</color>
+    <color name="colorVideoCard">#00BCD4</color>
+    <color name="colorSilver">#fafafa</color>
+    <color name="colorSilverDark">#dbdbdb</color>
+    <!--<color name="color_one">#f5a352</color>
+    <color name="color_two">#fb7374</color>
+    <color name="color_three">#c5aaf5</color>
+    <color name="color_four">#a3cbf1</color>
+    <color name="color_five">#79bfa1</color>
+    <color name="color_six">#423c40</color>
+    <color name="color_seven">#af6193</color>
+    <color name="color_eight">#61cf56</color>
+    <color name="color_nine">#ca3d83</color>
+    <color name="color_ten">#4c9ff4</color>-->
+
+
+</resources>

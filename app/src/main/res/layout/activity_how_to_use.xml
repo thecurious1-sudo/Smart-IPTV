@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appbrain="http://schemas.android.com/apk/lib/com.appbrain"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vaibhav.tech.smartiptv.HowToUse">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:theme="?attr/actionBarTheme"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginEnd="11dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="29dp"
+        android:text="For CHROMECAST device, just connect the device to phone and click on any channel of the playlist. It will automatically stream the video over to the device." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="47dp"
+        android:text="For playing the channel on MOBILE/TABLET ,  disconnect the Chromecast device and click on any channel of the playlist. It will automatically stream the channel on the default Media Player." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="50dp"
+        android:text='For changing the default media player, click on "Set Player" on main menu and select the media player of your choice.' />
+
+
+    <com.appbrain.AppBrainBanner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        appbrain:adid="ban-236d84" />
+</RelativeLayout>
